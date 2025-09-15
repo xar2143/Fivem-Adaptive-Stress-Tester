@@ -98,7 +98,7 @@ Final CPU Load:      58.0%
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 * **Do not** use on live/production servers.
 * The script **does not** spawn NPCs or vehicles—only simulates logic and I/O load.
