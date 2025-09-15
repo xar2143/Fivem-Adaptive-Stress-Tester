@@ -1,12 +1,12 @@
-# 🚀 FiveM Adaptive Stress Tester
+# FiveM Adaptive Stress Tester
 
 A powerful, server-side only module for running **automatic adaptive stress tests** on your FiveM server. Ideal for developers and server administrators who want to validate stability, performance and resilience under load.
 
-> ⚠️ **DISCLAIMER**: This script can significantly impact CPU, RAM and network. **Do not run on production servers or without permission.** Use only in controlled test/development environments.
+> **DISCLAIMER**: This script can significantly impact CPU, RAM and network. **Do not run on production servers or without permission.** Use only in controlled test/development environments.
 
 ---
 
-## 🧠 Features
+## Features
 
 * **Adaptive Load**: Detects available RAM and CPU in real time and adjusts test intensity automatically.
 * **Event Simulation**: Fires thousands of fake server events.
@@ -17,7 +17,7 @@ A powerful, server-side only module for running **automatic adaptive stress test
 
 ---
 
-## ⚙️ Configuration (inside the Lua script)
+## Configuration (inside the Lua script)
 
 ```lua
 local Config = {
@@ -33,9 +33,9 @@ local Config = {
 
 ---
 
-## 📆 Commands & Usage
+## Commands & Usage
 
-### ▶️ Start Test
+### Start Test
 
 * **Default duration (60 s):**
 
@@ -50,7 +50,7 @@ local Config = {
 
   *Example:* `/stresstest start 120` → 2-minute test.
 
-### ⏹️ Stop Test
+### Stop Test
 
 * **Manually end test before timeout:**
 
@@ -58,7 +58,7 @@ local Config = {
   /stresstest stop
   ```
 
-### 🔍 Console Output Examples
+### Console Output Examples
 
 #### During Test
 
@@ -86,7 +86,7 @@ Final CPU Load:      58.0%
 
 ---
 
-## 📋 Simulated Operations
+## Simulated Operations
 
 | Operation Type         | Description                         |
 | ---------------------- | ----------------------------------- |
